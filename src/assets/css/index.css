@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+.header-title {
+  font-size: 2.25em;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 115px;
+}
+
+.container {
+  margin: 0 auto;
+  background: #ffffff;
+  max-width: 1024px;
+}
+
+.info {
+  color: #00ccff;
+}
+
+.accent {
+  color: #6138d5;
+}
+
+.error {
+  color: #fda0a0;
+}
+
+.action {
+  background-color: #9e5bc8;
+  color: #fff;
+}
+
+.action.outline {
+  background-color: transparent;
+  color: #9e5bc8;
+  border: 1px solid #9e5bc8;
+}
+
+.link {
+  color: #0F5C74;
+  text-decoration: underline;
+}
+
+.warning-btn {
+  background-color: #ff7f1a;
+}
+
+.bullet {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+  background-image: url('../images/bullet.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.group-btn {
+  text-align: center;
+}
+
+.group-btn .btn {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.btn {
+  display: block;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 0;
+  border-radius: 2em;
+  min-width: 250px;
+  cursor: pointer;
+}
+
+.form-control {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 10px 5px;
+}
+
+.form-control input {
+  border: 2px solid #C4C4CB;
+  width: 100%;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+.form-control label {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+  .form-control {
+    flex-flow: row
+  }
+
+  .form-control input {
+    width: 300px;
+  }
+
+  .form-control label {
+    width: 50%;
+    text-align: right;
+  }
+}
